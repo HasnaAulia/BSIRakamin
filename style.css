@@ -4,6 +4,139 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#nama{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(33, 36,61,1);
+}
+
+#desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    color: rgba(33, 36, 61, 1);
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+#photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+
+/* #download{
+    background: rgba(255, 100, 100, 1);
+    width: 208px;
+    height: 47px;
+    top: 477px;
+    left: 148px;
+    border-radius: 2px;
+    border-color: rgba(255, 100, 100, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    text-align: center;
+    color: #ffff;
+} */
+
+.icon-link{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    padding: 0%;
+    border: none;
+    background: transparent;
+    height: 50px;
+}
+
+.header{
+    display: flex;
+    padding: 148px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#view{
+    font-size: 16px;
+    font-weight: 400;
+    color:
+     rgba(0, 168, 204, 1);
+}
+
+.cardworks{
+    display: flex;
+    justify-content: space-between;
+    margin: 148px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+#work{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(33, 36, 61, 1);
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 148px;
+}
+
+#judul{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38.19px;
+    color: rgba(33, 36, 61, 1);
+    margin: 0px;
+}
+
+#subjudul{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.44px;
+    color: rgba(33, 36, 61, 1);
+    justify-content: space-between;
+    width: 450px;
+    margin: 5px 0px;
+}
+
+.post{
+    background-color: rgba(237, 247, 250, 1);
+    width: 100%;
+    margin-top: 32px;
+}
+
+.cardwork{
+    width: 450px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    padding: 24px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+#descwork{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    color: rgba(33, 36, 61, 1);
+    width: 450px;
+    margin: 0px;
+}
+
 img{
     height: 72px;
 }
